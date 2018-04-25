@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 bot.on('message', message => {
-    if (message.content.startsWith(".brabo")){
+    if (message.content.startsWith(".brabim")){
         randomNumber = Math.floor(Math.random() * (1 - 1) + 1);
         if(randomNumber == 1){
             message.reply("Va te toma no cú");
